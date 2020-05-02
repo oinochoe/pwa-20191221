@@ -1,0 +1,42 @@
+{
+  "icons": [
+    {
+      "src": "icon_512x512.7821931a0ca08c34903c2dcb8dda93aa.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_384x384.11036df37949272b7b9f16bb72c0837d.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_256x256.6e05942910baa1cdb1f8163ecc05d87e.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_192x192.35b62f41cec0e88945704fb2a77f1e81.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_128x128.da08f4824b63312e5d4c7c936f8d4940.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_96x96.cada7e4d2a0537b386833e2660b798ac.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Tower Blocks",
+  "short_name": "Tower",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Tower Blocks Game",
+  "backgrond_color": "#ffffff",
+  "theme_color": "#eeeeee"
+}

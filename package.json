@@ -1,29 +1,36 @@
 {
-  "name": "react-pwa",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "webpack-dev-server --mode development --open --hot",
-    "build": "webpack --mode production"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "office-ui-fabric-react": "^7.76.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.7.7",
-    "@babel/preset-env": "^7.7.7",
-    "@babel/preset-react": "^7.7.4",
-    "babel-loader": "^8.0.6",
-    "html-webpack-plugin": "^3.2.0",
-    "webpack": "^4.41.4",
-    "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.10.1",
-    "webpack-pwa-manifest": "^4.1.1",
-    "workbox-webpack-plugin": "^4.3.1"
-  }
+    "name": "react-pwa",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-dev-server --mode development --open --hot",
+        "build": "webpack --mode production"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "mini-css-extract-plugin": "^0.9.0",
+        "office-ui-fabric-react": "^7.76.0",
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.7.7",
+        "@babel/preset-env": "^7.7.7",
+        "@babel/preset-react": "^7.7.4",
+        "babel-loader": "^8.0.6",
+        "css-loader": "^3.5.3",
+        "html-webpack-plugin": "^3.2.0",
+        "node-sass": "^4.14.0",
+        "postcss-loader": "^3.0.0",
+        "sass": "^1.26.5",
+        "sass-loader": "^8.0.2",
+        "style-loader": "^1.2.1",
+        "webpack": "^4.41.4",
+        "webpack-cli": "^3.3.11",
+        "webpack-dev-server": "^3.10.1",
+        "webpack-pwa-manifest": "^4.1.1",
+        "workbox-webpack-plugin": "^4.3.1"
+    }
 }
