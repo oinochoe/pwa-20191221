@@ -24,6 +24,6 @@ ReactDOM.render(<App />, document.querySelector('.container'));
 if ('serviceWorker' in navigator) {
     // 서비스 워커 지원하지 않는 브라우저 체크
     window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/service-worker.js');
+        navigator.serviceWorker.register('./service-worker.js');
     });
 }
